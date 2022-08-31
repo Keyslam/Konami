@@ -39,7 +39,7 @@ end
 function konami.keypressed(key)
    table.insert(konami.log, key)
    konami.checking = true
-   konami.timeleft = konami.waitTime
+   konami.timeLeft = konami.waitTime
 
    local nextref = konami.codes
    for i = 1, #konami.log do
